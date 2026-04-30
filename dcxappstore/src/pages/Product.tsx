@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import ProductGrid from "../components/ProductGrid";
 
@@ -6,6 +7,7 @@ const Product = () => {
     <div>
       <Navbar />
         <ProductGrid />
+        <Footer />
     </div>
   );
 };

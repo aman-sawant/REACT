@@ -72,7 +72,7 @@
   color: white;
   font-size: 20px;
   cursor: pointer;
-  border-radius: 50%; /* perfect circle */
+  border-radius: 0; /* perfect circle */
   
   z-index: 10;
 }

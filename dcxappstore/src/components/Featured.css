@@ -1,0 +1,85 @@
+.featured {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: stretch;
+}
+
+/* LEFT PANEL (fixed width like UI) */
+.left {
+  width: 260px; /* 🔥 fixed instead of % */
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(to right, #2d89ef, #5fa8ff);
+
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* ITEMS */
+.item {
+  padding: 12px;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.item:hover {
+  background: #e6f0ff;
+}
+
+/* ACTIVE ITEM */
+.item.active {
+  background: #b8cce4;
+  font-weight: bold;
+}
+
+/* HEADER ACTIVE */
+.header.active {
+  background: #1b6fd1;
+}
+
+/* RIGHT PANEL */
+.right {
+  flex: 1; /* 🔥 take remaining space */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #2d89ef, #5fa8ff);
+  color: white;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+/* TEXT */
+.content {
+  max-width: 60%;
+}
+
+.content h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.content p {
+  margin: 10px 0;
+}
+
+/* BUTTON */
+.content button {
+  padding: 8px 16px;
+  border: none;
+  background: #e6e6e6;
+  color: #2d89ef;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* IMAGE */
+.image img {
+  width: 180px;
+}
